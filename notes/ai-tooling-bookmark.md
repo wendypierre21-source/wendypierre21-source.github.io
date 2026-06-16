@@ -115,20 +115,24 @@ Don't try to install all 60 tools at once. Pick one path, go deep, add more as n
 
 ---
 
-## Bonus: "Best GitHub repos for Claude Code (2026)"
-> Added 2026-06-16. Source URLs arrived truncated (`…`); preserved as given,
-> with confident expansions noted in brackets.
+## Bonus: Claude Code Power-Ups (de-duplicated & URL-verified)
+> Cleaned 2026-06-16. URLs confirmed reachable via raw.githubusercontent.com
+> (a README exists on the default branch). ✅ = verified. ⚠️ = could not
+> verify; source URL was truncated. Items already in Parts 1–9 above were
+> dropped to avoid duplicates (Superpowers → #5, Obsidian Skills → #28).
 
-1. **Claude Mem** — Persistent memory across sessions; stop re-teaching Claude your codebase. github.com/thedotmack/cla… [likely `thedotmack/claude-mem`]
-2. **UI UX Pro Max** — 50+ styles, 161 color palettes, 99 UX guidelines; stops Claude building ugly UIs. github.com/nextlevelbuild…
-3. **n8n-MCP** — Connect Claude Code to 400+ n8n integrations via MCP. github.com/czlonkowski/n8… [likely `czlonkowski/n8n-mcp`]
-4. **LightRAG** — Graph + vector RAG; understand large codebases structurally. github.com/hkuds/lightrag
-5. **Everything Claude Code** — Skills, instincts, security scanning, multi-language; full agent harness. github.com/affaan-m/every…
-6. **Awesome Claude Code** — Community bible: curated skills, hooks, slash commands, orchestrators. github.com/hesreallyhim/a… [likely `hesreallyhim/awesome-claude-code`]
-7. **Superpowers** — Forces structured thinking before writing code. github.com/obra/superpowe… [`obra/superpowers` — also #5 in main list]
-8. **Claude Code Ultimate Guide** — 23K+ lines of docs, 219 templates, 271 quizzes. github.com/FlorianBruniau…
-9. **Antigravity Awesome Skills** — 1,200+ ready-to-use skills; one of the largest collections. github.com/sickn33/antigr…
-10. **Claude Agent Blueprints** — 75+ agent workspace templates beyond coding. github.com/danielrosehill…
-11. **VoiceMode MCP** — Natural voice conversations with Claude Code via Whisper + Kokoro. github.com/mikecbaley/voi…
-12. **Awesome Claude Plugins** — 9,000+ repos indexed with adoption metrics. github.com/quemsah/awesom…
-13. **GSD (Get Shit Done)** — Claude Code workflow toolkit. github.com/gsd-build/get-… [truncated source]
+- ✅ **Claude Mem** — Persistent memory across sessions; stop re-teaching Claude your codebase. https://github.com/thedotmack/claude-mem
+- ✅ **n8n-MCP** — Connect Claude Code to 400+ n8n integrations via MCP. https://github.com/czlonkowski/n8n-mcp
+- ✅ **LightRAG** — Graph + vector RAG; understand large codebases structurally. https://github.com/HKUDS/LightRAG
+- ✅ **Everything Claude Code** — Skills, instincts, security scanning, multi-language; full agent harness. https://github.com/affaan-m/everything-claude-code
+- ✅ **Awesome Claude Code** — Curated skills, hooks, slash commands, orchestrators. https://github.com/hesreallyhim/awesome-claude-code
+- ✅ **Claude Code Ultimate Guide** — Docs, templates, quizzes; beginner to power user. https://github.com/FlorianBruniaux/claude-code-ultimate-guide
+- ✅ **Antigravity Awesome Skills** — 1,200+ ready-to-use skills; large collection. https://github.com/sickn33/antigravity-awesome-skills
+- ✅ **Claude Agent Blueprints** — 75+ agent workspace templates beyond coding. https://github.com/danielrosehill/claude-agent-blueprints
+- ✅ **Awesome Claude Plugins** — Repos indexed with adoption metrics. https://github.com/quemsah/awesome-claude-plugins
+- ✅ **GSD (Get Shit Done)** — Claude Code workflow toolkit. https://github.com/gsd-build/get-shit-done
+- ✅ **Agency Agents** — 120+ specialized AI agents across 12 divisions (engineering, design, marketing, etc.); MIT, works with Claude Code/Cursor/Copilot/Gemini/Windsurf. Install: `cp -r agency-agents/* ~/.claude/agents/`. https://github.com/msitarzewski/agency-agents · [agent index spreadsheet](https://docs.google.com/spreadsheets/d/1wiSGtWO4S_JgUE3y30pLJi94ts8uqGNL/edit)
+- ⚠️ **UI UX Pro Max** — 50+ styles, 161 palettes, 99 UX guidelines. Source URL truncated (`github.com/nextlevelbuild…`); couldn't resolve the exact repo.
+- ⚠️ **VoiceMode MCP** — Voice conversations with Claude Code via Whisper + Kokoro. Source URL truncated (`github.com/mikecbaley/voi…`); couldn't resolve the exact repo.
+
+> Dropped as duplicates of Parts 1–9: **Superpowers** (#5), **Obsidian Skills** (#28).
