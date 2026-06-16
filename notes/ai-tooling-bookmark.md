@@ -87,3 +87,28 @@ The plumbing that makes everything work in production.
 50. **OmniRoute** — API proxy for 44+ AI providers; load balancing, fallbacks. https://github.com/diegosouzapw/OmniRoute
 51. **lmnr** — Trace and evaluate agent behavior. https://github.com/lmnr-ai/lmnr
 52. **Codebase Memory MCP** — Convert your codebase into a persistent knowledge graph. https://github.com/DeusData/codebase-memory-mcp
+
+## Part 9: Curated Collections & Learning 📚
+Where to find more and keep learning.
+
+53. **Awesome Claude Skills** — The best curated skill list. Start here for new skills. https://github.com/travisvn/awesome-claude-skills
+54. **Anthropic Skills Repo** — Official reference implementations from Anthropic. https://github.com/anthropics/skills
+55. **Awesome Agents** — 100+ open-source agent tools in one curated list. https://github.com/kyrolabs/awesome-agents
+56. **PromptingGuide** — Comprehensive prompt engineering reference. https://www.promptingguide.ai
+57. **Anthropic Prompt Engineering Tutorial** — 9 chapters of hands-on Jupyter exercises. https://github.com/anthropics/prompt-eng-interactive-tutorial
+58. **SkillsMP** — Marketplace with 80,000+ community skills. https://skillsmp.com
+59. **MAGI//ARCHIVE** — Daily feed of fresh AI repos. https://tom-doerr.github.io/repo_posts/
+60. **Anthropic Official Docs** — API, prompting, tool use, agents. https://docs.anthropic.com
+
+## How to Actually Use This List
+Don't try to install all 60 tools at once. Pick one path, go deep, add more as needs grow.
+
+- **If you're a developer:** Claude Code (01) + Superpowers (05) + Context7 (17) + Tavily (16) — AI coding setup with search and docs access.
+- **If you're a creator / knowledge worker:** OpenClaw (08) + Obsidian Skills (28) + PDF Processing (23) + Frontend Design (24) — assistant with file management, document processing, content creation.
+- **If you're building a product:** FastAPI (48) + Instructor (44) + Chroma (45) + LangGraph (09) — backend framework, structured outputs, memory, agent orchestration.
+- **If you want to learn:** Anthropic Tutorial (57) + PromptingGuide (56) + Anthropic Docs (60) — build the foundation before stacking tools.
+
+## TL;DR
+- **Skills** = teach AI *how* to do things better.
+- **MCP** = give AI *access* to external tools and data.
+- **Repos** = the open-source engines powering it all.
