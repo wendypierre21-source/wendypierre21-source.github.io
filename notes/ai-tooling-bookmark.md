@@ -132,7 +132,6 @@ Don't try to install all 60 tools at once. Pick one path, go deep, add more as n
 - ✅ **Awesome Claude Plugins** — Repos indexed with adoption metrics. https://github.com/quemsah/awesome-claude-plugins
 - ✅ **GSD (Get Shit Done)** — Claude Code workflow toolkit. https://github.com/gsd-build/get-shit-done
 - ✅ **Agency Agents** — 120+ specialized AI agents across 12 divisions (engineering, design, marketing, etc.); MIT, works with Claude Code/Cursor/Copilot/Gemini/Windsurf. Install: `cp -r agency-agents/* ~/.claude/agents/`. https://github.com/msitarzewski/agency-agents · [agent index spreadsheet](https://docs.google.com/spreadsheets/d/1wiSGtWO4S_JgUE3y30pLJi94ts8uqGNL/edit)
-- ⚠️ **UI UX Pro Max** — 50+ styles, 161 palettes, 99 UX guidelines. Source URL truncated (`github.com/nextlevelbuild…`); couldn't resolve the exact repo.
-- ⚠️ **VoiceMode MCP** — Voice conversations with Claude Code via Whisper + Kokoro. Source URL truncated (`github.com/mikecbaley/voi…`); couldn't resolve the exact repo.
+- ✅ **UI UX Pro Max** — 50+ styles, 161 palettes, 99 UX guidelines; stops Claude building ugly UIs. https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 
 > Dropped as duplicates of Parts 1–9: **Superpowers** (#5), **Obsidian Skills** (#28).
