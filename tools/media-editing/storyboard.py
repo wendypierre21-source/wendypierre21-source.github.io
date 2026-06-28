@@ -89,7 +89,7 @@ def animatic(panels, out, W=1920, H=1080, fps=30):
             vf=f"drawtext=fontfile={F}Poppins-ExtraBold.ttf:text='{p.get('shot','SHOT')}':fontcolor=white:fontsize={int(H*0.08)}:x=(w-text_w)/2:y=(h-text_h)/2,format=yuv420p"
             src=["-f","lavfi","-i",f"color=c=0x14181c:s={W}x{H}:d={d}:r={fps}"]; pre=[]
         cap=p.get("desc","").replace(":","\\:").replace("'","’")[:60]
-        vf+=f",drawbox=x=0:y=ih-90:w=iw:h=90:color=black@0.55:t=fill,drawtext=fontfile={F}Poppins-Medium.ttf:text='{cap}':fontcolor=white:fontsize=34:x=30:y=ih-66"
+        vf+=f",drawbox=x=0:y=ih-90:w=iw:h=90:color=black@0.55:t=fill,drawtext=fontfile={F}Poppins-Medium.ttf:text='{cap}':fontcolor=white:fontsize=34:x=30:y=h-62"
         subprocess.run(["ffmpeg","-y","-loglevel","error",*src,"-vf",vf,*pre,"-r",str(fps),
                         "-c:v","libx264","-crf","20","-preset","medium",sp],check=True)
         parts.append(sp)
