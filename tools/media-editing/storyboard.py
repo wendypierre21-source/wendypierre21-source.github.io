@@ -93,7 +93,7 @@ def animatic(panels, out, W=1920, H=1080, fps=30):
         subprocess.run(["ffmpeg","-y","-loglevel","error",*src,"-vf",vf,*pre,"-r",str(fps),
                         "-c:v","libx264","-crf","20","-preset","medium",sp],check=True)
         parts.append(sp)
-    lst=f"{seg}/list.txt"; open(lst,"w").write("".join(f"file '{p}'\n" for p in parts))
+    lst=f"{seg}/list.txt"; open(lst,"w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in parts))
     subprocess.run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",lst,"-c","copy",out],check=True)
     return out
 
